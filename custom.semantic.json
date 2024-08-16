@@ -1,0 +1,19 @@
+{
+    "definitions" : {
+      "site": true,
+      "menu": true,
+      "icon": true,
+      "dropdown": true,
+      "modal": true,
+      "list": true
+    },
+    "themes": {
+      "amazon"     : false,
+      "basic"      : true,
+      "bookish"    : false,
+      "bootstrap3" : false,
+      "chubby"     : false,
+      "classic"    : false,
+      "default"    : true
+    }
+}

@@ -1,0 +1,77 @@
+
+   .modalTitleStyle {
+        color: #FF6218 !important;
+        zoom: 1.4;
+        font-size: 14px !important;
+        position: relative;
+        top: 2px;
+    }
+    .invalid-field{
+        border: 1px solid red !important;
+    }
+    .ui.inverted.menu .item.disabled, .ui.inverted.menu .item.disabled:hover{        
+        color: rgba(225, 225, 225, 0.3) !important;      
+    }
+    .fade-div{
+        opacity: 0 !important;
+    }
+
+    .low-dimmer {
+        background-color: rgba(0, 0, 0, 0.3) !important;
+    } 
+
+    .dimmer{
+        background-color: rgba(0, 0, 0, 0.3) !important;
+    }
+    
+    .loaderparent_screen{
+        z-index: 1000; 
+        background-color: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+    }
+    
+    .fade_loaderscreen{
+        width: 100px;
+        position: fixed;
+        top: 50%;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin: auto;
+    }
+
+    .new_loader{
+        border: 4px solid #656464;
+        border-radius: 50%;
+        border-top: 4px solid #fff;
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        text-align: center;
+        -webkit-animation: spin .5s linear infinite;
+        animation: spin .5s linear infinite;
+    }
+
+    .new_loader_label{
+        font-weight: bold;
+        margin-top: 5px;
+        margin-left: 15px;
+        text-align: center !important;
+        color: darkorange;
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }

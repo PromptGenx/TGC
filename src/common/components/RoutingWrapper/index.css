@@ -1,0 +1,69 @@
+/* Fade effects */
+
+.fade-appear,
+.fade-enter {
+    opacity:0;    
+}
+
+.fade-appear-active,
+.fade-enter-active {
+    opacity:1;
+    transition: opacity 2.5s;   
+}
+
+.slideinfromright-appear,
+.slideinfromright-enter {
+     transform:translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -o-transform: translateX(100%);     
+}
+
+.slideinfromright-appear-active,
+.slideinfromright-enter-active{
+    transform:translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transition: transform 0.5s; 
+    -webkit-transition: -webkit-transform 0.5s; 
+    -moz-transition: -moz-transform 0.5s; 
+    -o-transition: -o-transform 0.5s; 
+}
+
+.slideinfromright-exit {
+    transform:translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transition: transform 1.5s; 
+    -webkit-transition: -webkit-transform 1.5s; 
+    -moz-transition: -moz-transform 1.5s; 
+    -o-transition: -o-transform 1.5s;  
+}
+
+.slideinfromright-exit-active{
+    transform:translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -o-transform: translateX(100%); 
+}
+
+/* .slideinfromright-exit {
+    opacity: 1;
+  }
+.slideinfromright-exit-active {
+    opacity: 0.01;
+    transition: opacity 500ms ease-in;
+}
+
+.slideinfromright-exit {
+    opacity: 1;
+    transform: scale(1) translateY(0%);
+  }
+  .slideinfromright-exit-active {
+    opacity: 1;
+    transform: scale(0.9) translateY(50%);
+    transition: all 300ms ease-out;
+
+  } */

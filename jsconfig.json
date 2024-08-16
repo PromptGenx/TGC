@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "es2017",
+      "allowSyntheticDefaultImports": false,
+      "baseUrl": "./",
+      "paths": {
+        "actions/*": ["src/common/actions/*"],
+        "api/*": ["src/common/api/*"],
+        "components/*": ["src/common/components/*"],
+        "containers/*": ["src/common/containers/*"],
+        "reducers/*": ["src/common/reducers/*"],
+        "routing/*": ["src/common/routing/*"],
+        "styles/*": ["src/common/styles/*"],
+        "selectors/*": ["src/common/selectors/*"],
+        "common/*": ["src/common/app/*"],
+        "static/*": ["static/*"]
+      }
+    },
+    "exclude": ["node_modules", "dist"]
+  }

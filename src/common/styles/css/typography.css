@@ -1,0 +1,9 @@
+/* @font-face  {
+font-family: 'HelveticaTT';
+src:url('../fonts/TitilliumWeb-Regular.ttf'); 
+src:url('../fonts/TitilliumWeb-Regular.ttf') format('truetype'); 
+} */
+
+html,body,h1,h2,h3,h4,h5,h6,button,table,p,div,form,a .ui {
+font-family: Helvetica, 'Lato', 'Helvetica Neue', Arial, sans-serif !important;
+}
