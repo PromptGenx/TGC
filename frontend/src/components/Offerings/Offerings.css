@@ -1,0 +1,100 @@
+/* Main container styling */
+.offerings-container {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Header Styling */
+.offerings-header {
+  margin-bottom: 30px;
+}
+
+.offerings-header h1 {
+  font-size: 2.8em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.offerings-header p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.85;
+}
+
+/* Form styling */
+.offerings-form {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 450px;
+  margin: 30px auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Input fields */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.offerings-form label {
+  font-size: 1.1em;
+  display: block;
+  margin-bottom: 8px;
+  color: #f1f1f1;
+}
+
+.offerings-form input,
+.offerings-form select {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.offerings-form input:focus,
+.offerings-form select:focus {
+  outline: none;
+  border: 2px solid #ffcc00;
+}
+
+/* Donate Button */
+.donate-button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  background: #ffcc00;
+  color: #333;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.donate-button:hover {
+  background: #ffaa00;
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .offerings-header h1 {
+    font-size: 2.2em;
+  }
+
+  .offerings-header p {
+    font-size: 1em;
+  }
+
+  .offerings-form {
+    width: 90%;
+  }
+}

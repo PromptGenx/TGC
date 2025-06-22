@@ -1,9 +1,0 @@
-{
-	"name": "TGC_React",
-	"short_name": "TGC_React",
-	"description": "Throne of Grace Church",
-	"start_url": ".",
-	"display": "standalone",
-	"background_color": "#f7f7f7",
-	"theme_color": "#009688"
-}

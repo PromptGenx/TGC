@@ -1,0 +1,10 @@
+.church-footer {
+  background: #fff;
+  color: #000;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+}

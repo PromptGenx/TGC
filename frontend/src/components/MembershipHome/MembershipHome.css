@@ -1,0 +1,70 @@
+.app-container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.home-container {
+  text-align: center;
+  margin-top: 50px;
+  height: 100vh;
+}
+
+.church-logo-container {
+  margin-bottom: 40px;
+}
+
+.church-logo {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.welcome-content {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.action-button {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.action-button:hover {
+  transform: translateY(-3px);
+}
+
+.register {
+  background-color: #3b5998;
+  color: white;
+}
+
+.register:hover {
+  background-color: #2d4373;
+}
+
+.view-members {
+  /* background-color: #4caf50; */
+  background-color: #3b5998;
+  color: white;
+}
+
+.view-members:hover {
+  background-color: #2d4373;
+}
+
+/* .view-members:hover {
+  background-color: #3e8e41;
+} */
